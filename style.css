@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1, h2, h3, h4{
+    font-family: "Inter", sans-serif;
+}
+p{
+    color: #707070;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.btn-primary{
+    background-color: #FF5959;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 10px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.section-title{
+    font-size: 40px;
+    text-align: center;
+}
+.section-description{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%), url("./images/donation0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content h1{
+    text-align: center;
+    color: white;
+}
+.header-content p{
+    text-align: center;
+    color: white;
+}
+.header-content h1{
+    font-size: 80px;
+    margin: 0;
+}
+.header-content p{
+    margin: 30px 0;
+}
+
+
+
+/* Donate Today Section */
+.amount-list{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.amount-button{
+    font-size: 32px;
+    color: #707070;
+    padding: 50px 20px;
+    border: none;
+    background: transparent;
+}
+.amount-button:hover{
+    border: 2px solid #FF5959;
+    border-radius: 8px;
+    background-color: #FFEEEE;
+    padding: 49px 19px;
+}
+.amount-input{
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #FF5959;
+    text-align: center;
+    display: block;
+    padding: 12px 8px;
+    font-size: 20px;
+    
+}
+.donate-btn{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Donation Plan */
+.plan{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+.plan-card{
+    padding: 40px 12px;
+    border-radius: 8px;
+}
+.plan1{
+    background-color: #4f9da62a;
+}
+.plan2{
+    background-color: #ff59592a;
+}
+.plan3{
+    background-color: #FFF4D6;
+}
+
+
+
