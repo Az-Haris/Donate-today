@@ -134,3 +134,39 @@ header{
 
 
 
+/* Contribution section */
+.contribution{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+.contribute-image{
+    width: 50%;
+    height: 400px;
+    border-radius: 8px;
+}
+.img1{
+    background-image: url("./images/donation2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url("./images/donation8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contribute-content p{
+    margin: 30px 0;
+}
+.contribute-content {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.contribute-content h2{
+    font-size: 40px;
+}
+.contribution-2nd-row{
+    flex-direction: row-reverse;
+    margin-top: 80px;
+}
